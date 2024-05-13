@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 20vh;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: roboto;
+  font-size: 50px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.text {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 200;
+  color: #334155;
+}
+.sub-text {
+  color: #0b69ff;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  border-color: #7e858e;
+  border-radius: 6px;
+  padding: 10px;
+}
+.title-input {
+  font-family: roboto;
+  font-size: 18px;
+  color: #475569;
+}
+.sub-heading {
+  font-family: roboto;
+  font-size: 26px;
+  color: #475569;
+}
+.button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  padding: 6px;
+  border-width: opx;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 13px;
+  height: 50px;
+  width: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 400;
+}
+.head-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

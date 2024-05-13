@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-color: #475569;
+  padding: 6px;
+  font-family: roboto;
+  font-size: 20px;
+  color: #475569;
+  font-weight: 200;
+}
+.delete-icon {
+  height: 25px;
+  width: 16px;
+  text-align: right;
+}

@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.balance-container1 {
+  height: 200px;
+  border-color: #84cc16;
+  background-color: #ecfccb;
+  padding: 20px;
+  border-width: 1px;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-container2 {
+  height: 200px;
+  border-color: #06b6d4;
+  background-color: #cffafe;
+  padding: 20px;
+  border-width: 1px;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-container2 {
+  height: 200px;
+  border-color: #7c3aed;
+  background-color: #ede9fe;
+  padding: 20px;
+  border-width: 1px;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #84cc16;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border-width: 0px;
+  margin-left: 40px;
+}
+.image-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #06b6d4;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border-width: 0px;
+  margin-left: 40px;
+}
+.image-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c3aed;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border-width: 0px;
+  margin-left: 40px;
+}
+.balance-icon {
+  height: 50px;
+  width: 65px;
+}
+.amount {
+  font-family: roboto;
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 400;
+}
+.text {
+  font-family: roboto;
+  color: #1e293b;
+  font-weight: 400;
+  font-size: 25px;
+}
